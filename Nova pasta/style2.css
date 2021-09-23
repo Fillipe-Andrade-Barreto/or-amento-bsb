@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+/* font-family: 'Barlow Condensed', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Nunito:wght@300&display=swap');
+/*font-family: 'Nunito', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yanone+Kaffeesatz&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@1,200&family=Yanone+Kaffeesatz&display=swap');
+/*font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@700&display=swap');
+/*font-family: 'amiko', sans-serif; */
+
+.nav-list li{
+
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.text_miniboard_home_1,.mens_orange_miniboard_home_1,.mens_green_miniboard_home_1,.text_mainboard_home_1,.methods_title,.banner_methods1{
+  font-family: 'Poppins', sans-serif; 
+
+}
+
+.box_background_e_font{
+  font-family: 'Amiko', sans-serif;
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+#backgroundbody{
+    background-color: #FFF8F4;
+  
+  }
+  #navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;
+    background-color: #FFF8F4;
+    height: 185px;
+    position: sticky;
+    top: 0;
+    padding: 0px 90px 0px 78px;   
+    box-shadow: 0 0px 12px rgba(0,0,0,0.6);
+  
+  }
+  .navbar-besolar{
+    
+    
+   background-image: url(./imagens/nav.bar.aba/logo_besolar.png);
+   background-repeat: no-repeat;
+ background-position: center;
+ background-size:15rem;
+ width: 256px;
+ height: 118px;
+ margin-right: 450px;
+ margin-bottom: 40px;
+   
+  } 
+    /* In. titulos */
+    .nav-list{
+      list-style: none;  
+      font-size: 28px;
+      
+      position: sticky;
+    }
+  
+    .nav-list a{
+      text-decoration: none;
+      
+    }
+    .nav-list a li{
+      transition:300ms;
+      color: #14172A;
+      font-weight: bold;
+  
+      
+    }
+    .nav-list a li:hover{
+      transition:300ms;
+      color:#F94C00; 
+      transform: scale(1.2);
+       
+      
+    }
+     /* Fim. titulos */
+    /* In. icon.instagram */
+     .icon_inst_nav{
+     width: 30px;
+     height:30px ;
+     margin-left: 5px;
+     
+       }
+     
+   
+       .icon-responsivo{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transition: 300ms;
+        width: 30px;
+        height:30px ;
+      } 
+      .icon-responsivo:hover {
+        transform: scale(1.5); 
+        box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+        transition: 300ms;
+        background-color: #FF8A00;
+        
+      }
+      
+/* Fim. icon.instagram */
+
+/*Começo do baner*/
+
+#Work_banner{
+  width: 100%;
+  height: 730px;
+  background-image: url("../Nova pasta/iconsandimages/mediação.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 730px;
+  font-size: 110px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*final do baner*/
+#process_text{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#process_text h3{
+  font-size: 64px;
+}
+#process_text h4{
+  width: 90%;
+  font-size: 28px;
+  text-align: justify;  
+}
+#orçament{
+  width: 100%;
+  height: 225px;
+  padding-left: 10%;
+}
+.h4{
+  font-size: 64px;
+  position: relative;
+  color: #14172A;
+  
+}
+#txtOrçament{
+  height: 110px;
+  width: 1536px;
+  background-color: F2F2F2;
+  border-radius: 20px;
+  font-size:50px;
+  padding-left: 35px;
+  color:rgba(0,0,0,0.6);
+  outline: 0;
+
+}
