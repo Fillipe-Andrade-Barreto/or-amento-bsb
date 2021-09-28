@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap%27');
+/* font-family: 'Barlow Condensed', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Nunito:wght@300&display=swap%27');
+/*font-family: 'Nunito', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yanone+Kaffeesatz&display=swap%27');
+/*font-family: 'Dancing Script', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@1,200&family=Yanone+Kaffeesatz&display=swap%27');
+/*font-family: 'Poppins', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@700&display=swap%27');
+/*font-family: 'amiko', sans-serif; */
+
+.nav-list li{
+
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+#process_text,#orçament,.conj_image_cont_1,.endbar_box,button,#inform_text h4,.projects_cont h4{
+  font-family: 'Poppins', sans-serif; 
+
+}
+
+#Work_banner, .projects_title h4,#Projects_banner h4{
+  font-family: 'Amiko', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+#backgroundbody{
+
+    background-color: #FFF8F4;
+  
+  }
+
+  #navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;
+    background-color: #FFF8F4;
+    height: 185px;
+    position: sticky;
+    top: 0;
+    padding: 0px 40px 0px 21px;   
+    box-shadow: 0 0px 12px rgba(0,0,0,0.6);
+
+  
+  }
+
+
+  .navbar-besolar{
+    
+    
+   background-image: url(./imagens/nav.bar.aba/logo_besolar.png);
+   background-repeat: no-repeat;
+ background-position: center;
+ background-size:15rem;
+
+ width: 256px;
+ height: 118px;
+
+ margin-right: 450px;
+ margin-bottom: 40px;
+
+
+   
+  } 
+
+
+    /* In. titulos */
+    .nav-list{
+      list-style: none;  
+      font-size: 28px;
+      
+      position: sticky;
+    }
+  
+    .nav-list a{
+      text-decoration: none;
+      
+    }
+
+    .nav-list a li{
+      transition:300ms;
+      color: #14172A;
+      font-weight: bold;
+  
+      
+    }
+    .nav-list a li:hover{
+      transition:300ms;
+      color:#F94C00; 
+      transform: scale(1.2);
+       
+      
+    }
+
+     /* Fim. titulos */
+
+    /* In. icon.instagram */
+     .icon_inst_nav{
+     width: 40px;
+     height:40px ;
+     margin-left: 5px;
+     
+       }
+     
+   
+       .icon-responsivo{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transition: 300ms;
+        width: 40px;
+        height:40px ;
+      } 
+      .icon-responsivo:hover {
+
+        transform: scale(1.5); 
+        box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+        transition: 300ms;
+        background-color: #FF8A00;
+        
+      }
+      
+/* Fim. icon.instagram */
+
+ /* In. banner */
+
+ #Projects_banner{
+    width: 100%;
+    height: 730px;
+    background-image: url("../Nova pasta/iconsandimages/placas.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 730px;
+    font-size: 90px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+  }
+/*fim banner*/
+
+/*inicio inform text*/
+#inform_text{
+    padding-top: 110px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    font-size: 24px;
+}
+.text_inform_text{
+    width: 80%; 
+}
+/*fim inform text*/
+
+/*inicio clientes case*/
+
+#projects{
+    width: 100%;
+    height: 760px;
+    margin-top: 70px;
+}
+.projects_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 48px;
+    padding-bottom: 100px;
+    color: #FF8A00;
+}
+.projects_cont{
+    width: 100%;
+    height: 595px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.projects_cont h4{
+    width: 750px;
+    font-size: 24px;
+    text-align: justify;
+    
+
+}
+.projects_cont img{
+    width: 700px;
+    height: 500px;
+}
+
